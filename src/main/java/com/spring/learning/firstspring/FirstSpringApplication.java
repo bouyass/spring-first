@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class FirstSpringApplication {
-	// first application 
+	// first application for bigenners
 	public static void main(String[] args) {
 		BinarySearchImpl binarySearchImpl = new BinarySearchImpl();
 		int result = binarySearchImpl.binarySearch(new int[] {1,2,5,6,7}, 2);
