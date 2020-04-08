@@ -15,5 +15,4 @@ public class FirstSpringApplication {
 		int result = binarySearchImpl.binarySearch(new int[] {1,2,5,6,7}, 2);
 		System.out.println(result);
 	}
-
 }
